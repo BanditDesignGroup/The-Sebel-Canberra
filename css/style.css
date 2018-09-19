@@ -1,3 +1,18 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 @-moz-keyframes fadeInDown {
     0% {
         visibility: visible;
@@ -26,18 +41,6 @@
     }
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-html{
-    height:100%;
-    min-height:100%;
-    }
-body {
-    min-height:100%;
-    margin: 0;
-    padding: 0;
-}
 
 header {
     display: flex;
@@ -51,9 +54,9 @@ header {
 
 .nav {
     margin-top: 44px;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .logo {
@@ -65,9 +68,9 @@ header {
     background-size: cover;
     display: block;
     margin: 30px 0 -78px 0;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .nav-link {
@@ -95,9 +98,13 @@ header>.btnHeader {
     margin: 29px 0 0 277px;
     float: right;
     cursor: pointer;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    border-radius: 0!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .topImage {
@@ -121,9 +128,9 @@ header>.btnHeader {
     text-align: center;
     color: white;
     margin: 0px;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .topImage>h2 {
@@ -133,26 +140,30 @@ header>.btnHeader {
     text-align: center;
     color: white;
     margin: 0px;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .topImage>.btnHeader {
-    width: 180px;
+    width: 233px;
     height: 42px;
     background: #CC9966;
     text-transform: uppercase;
     border: none;
     color: #323366;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 19px;
     display: block;
     margin-top: 50px;
     cursor: pointer;
-    -webkit-animation: fadeInDown 0.75s linear 0s forwards;
-    -moz-animation: fadeInDown 0.75s linear 0s forwards;
-    animation: fadeInDown 0.75s linear 0s forwards;
+    border-radius: 0!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .btnHeader:focus {
@@ -186,6 +197,9 @@ header>.btnHeader {
     line-height: 28px;
     color: #323366;
     font-size: 14px;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .lightYellow {
@@ -199,6 +213,9 @@ header>.btnHeader {
     color: #CC9966;
     padding-top: 105px;
     margin: 0%;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .content {
@@ -236,7 +253,7 @@ header>.btnHeader {
 }
 
 .block2>.image1 {
-    background-image: url("../Links/822577468-1024x1024.jpg");
+    background-image: url("../Links/Sebel-EK-print.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -257,7 +274,7 @@ header>.btnHeader {
 }
 
 .block2>.image3 {
-    background-image: url("../Links/508831592-1024x1024.jpg");
+    background-image: url("../Links/ea934315-103d-4b2d-aa33-a65acc01399f.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,15 +291,6 @@ header>.btnHeader {
     height: 100%;
 }
 
-.block2>.image5 {
-    background-image: url("../Links/Sebel-EK-print.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: 100%;
-}
-
 .block2>.content>h2 {
     font-size: 42px;
     font-weight: 600;
@@ -290,12 +298,18 @@ header>.btnHeader {
     color: #323366;
     margin-bottom: 35px;
     margin-top: 200px;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .block2>.content>p {
     width: 410px;
     line-height: 28px;
     color: #323366;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .block2>.content>.btnHeader {
@@ -308,6 +322,13 @@ header>.btnHeader {
     font-size: 14px;
     cursor: pointer;
     text-transform: uppercase;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0!important;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .block2>.content>.colorBrown {
@@ -342,6 +363,9 @@ header>.btnHeader {
     color: #CC9966;
     padding-top: 62px;
     padding-bottom: 20px;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .contactBlock>.contact>p {
@@ -349,6 +373,9 @@ header>.btnHeader {
     font-weight: 400;
     text-align: center;
     color: #323366;
+    -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
+    -moz-animation: fadeInDown 0.75s linear 0.25s forwards;
+    animation: fadeInDown 0.75s linear 0.25s forwards;
 }
 
 .email>a {
@@ -367,7 +394,7 @@ svg {
     height: 40px;
     border: none;
     cursor: pointer;
-    padding: 6px 0px;
+    padding: 6px 13px;
     display: flex;
 }
 
@@ -376,7 +403,7 @@ svg {
     color: #323366;
     font-size: 14px;
     text-decoration: underline;
-    margin-left: 20px;
+    margin: auto;
 }
 
 .arrow>.fab {
@@ -387,8 +414,7 @@ svg {
 .arrow>svg {
     width: 20px;
     height: 20px;
-    margin-top: 0px;
-	margin-right: 0px;
+    margin-top: 12px;
 }
 
 .social {
@@ -629,10 +655,12 @@ footer>p:first-of-type {
     header>.btnHeader {
         margin: 29px 10px 0 140px;
     }
-    .block2>.content>h2{
+
+    .block2>.content>h2 {
         font-size: 25px;
     }
-    .block2>.content>p{
+
+    .block2>.content>p {
         width: 80%;
     }
 }
@@ -870,7 +898,7 @@ footer>p:first-of-type {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 576px) {
     .block2>.image4 {
-        background-image: url("../Links/rawpixelUnsplashMobile.jpg")!important;
+        background-image: url("../Links/rawpixelUnsplashMobile.jpg") !important;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -887,5 +915,8 @@ footer>p:first-of-type {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
+    }
+    .btnHeader{
+        border-radius: 0!important;
     }
 }
