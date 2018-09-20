@@ -146,14 +146,14 @@ header>.btnHeader {
 }
 
 .topImage>.btnHeader {
-    width: 233px;
+    width: 180px;
     height: 42px;
     background: #CC9966;
     text-transform: uppercase;
     border: none;
     color: #323366;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 14px;
     display: block;
     margin-top: 50px;
     cursor: pointer;
@@ -313,7 +313,7 @@ header>.btnHeader {
 }
 
 .block2>.content>p {
-    width: 410px;
+    width: 450px;
     line-height: 28px;
     color: #323366;
     -webkit-animation: fadeInDown 0.75s linear 0.25s forwards;
