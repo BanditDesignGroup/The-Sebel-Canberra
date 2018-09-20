@@ -252,7 +252,7 @@ header>.btnHeader {
     height: 100%;
 }
 
-.block2>.image1 {
+.block2>.image5 {
     background-image: url("../Links/Sebel-EK-print.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -284,6 +284,15 @@ header>.btnHeader {
 
 .block2>.image4 {
     background-image: url("../Links/rawpixelUnsplashMobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.block2>.image1 {
+    background-image: url("../Links/822577468-1024x1024.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -770,7 +779,8 @@ footer>p:first-of-type {
     .block2>.image1,
     .block2>.image2,
     .block2>.image3,
-    .block2>.image4 {
+    .block2>.image4,
+    .block2>.image5 {
         height: 410px;
         width: 100%;
     }
